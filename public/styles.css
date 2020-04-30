@@ -1,8 +1,18 @@
 body {
   text-align: center;
-  background-color: pink;
+  background: 
+    linear-gradient(180deg, 
+    hsl(350, 100%, 90%) 5%, 
+    hsl(350, 100%, 88%) 15%,
+    hsl(350, 100%, 86%) 25%,
+    hsl(350, 100%, 84%) 35%,
+    hsl(350, 100%, 82%) 45%,
+    hsl(350, 100%, 80%) 55%,
+    hsl(350, 100%, 78%) 65%,
+    hsl(350, 100%, 76%) 75%,
+    hsl(350, 100%, 74%) 85%);
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -14,17 +24,27 @@ main {
 
 h1 {
   font-family: 'Fredoka One', cursive;
-  color: red;
+  text-shadow: 2px 2px hsl(0, 100%, 20%);
+  color: hsl(0, 100%, 50%);
   font-size: 4rem;
 }
 
 button {
   width: 10rem;
   height: 5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   border-radius: 10px;
-  background-color: red;
+  background-color: hsl(0, 100%, 50%);
+  color: hsl(100, 100%, 100%);
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  border: none;
+  box-shadow: 2px 2px hsl(0, 100%, 20%);
+}
+
+button:hover {
+  background-color: hsl(100, 100%, 100%);
+  color: hsl(0, 100%, 50%);
 }
 
 img {
