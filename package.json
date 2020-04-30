@@ -1,0 +1,19 @@
+{
+  "name": "love-generator",
+  "version": "12.16.1",
+  "description": "A simple website that serves static files using vanilla Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahgooding/love-generator.git"
+  },
+  "author": "Hannah Gooding",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

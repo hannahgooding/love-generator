@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: pink;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+h1 {
+  font-family: 'Fredoka One', cursive;
+  color: red;
+  font-size: 4rem;
+}
+
+button {
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: auto;
+  height: 3rem;
+  margin: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
